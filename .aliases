@@ -1,0 +1,10 @@
+# docker-compose
+alias fig='docker-compose'
+
+# Git
+alias g='git'
+alias tb="git symbolic-ref --short HEAD|tr -d \"\\n\""
+alias pushme='git push origin $(tb)'
+alias pullme='git pull origin $(tb)'
+alias up='docker-compose up -d'
+alias gg='git grep'
